@@ -68,15 +68,17 @@ int search(){
 
 return -1 denotes that the value is not present in the array.
 
-the best case would be O(1) where the target is the first value of the array
+**best case** 
+- O(1) where the target is the first value of the array
 
-the worst case
+**Worst case**
 -	target would be either at the n-th position of the array or not present in the array . In that sense, the complexity would be O(N) where N is the number of operation[ size of the array]
 
-Average case
+**Average case**
 - we take all possible inputs and calculate computing time for all of the inputs. Sum all the calculated values and divide the sum by total number of inputs.
 
 
 [References]
 - https://www.cs.utexas.edu/users/djimenez/utsa/cs1723/lecture2.html
 - https://en.wikipedia.org/wiki/Data_structure
+- https://www.geeksforgeeks.org/fundamentals-of-algorithms/
